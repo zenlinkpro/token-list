@@ -1,0 +1,85 @@
+{
+  "name": "bifrost",
+  "tokens": [
+    {
+      "networkId": 200,
+      "address": "",
+      "chainId": 2001,
+      "assetType": 0,
+      "assetIndex": 0,
+      "symbol": "BNC",
+      "decimals": 12,
+      "name": "Bifrost"
+    },
+    {
+      "networkId": 200,
+      "address": "",
+      "chainId": 2001,
+      "assetType": 2,
+      "assetIndex": 770,
+      "symbol": "aUSD",
+      "decimals": 12,
+      "name": "Karura Dollar"
+    },
+    {
+      "networkId": 200,
+      "address": "",
+      "chainId": 2001,
+      "assetType": 2,
+      "assetIndex": 516,
+      "symbol": "KSM",
+      "decimals": 12,
+      "name": "Kusama"
+    },
+    {
+      "networkId": 200,
+      "address": "",
+      "chainId": 2001,
+      "assetType": 2,
+      "assetIndex": 519,
+      "symbol": "ZLK",
+      "decimals": 18,
+      "name": "Zenlink Network Token"
+    },
+    {
+      "networkId": 200,
+      "address": "",
+      "chainId": 2001,
+      "assetType": 2,
+      "assetIndex": 518,
+      "symbol": "KAR",
+      "decimals": 12,
+      "name": "Karura"
+    },
+    {
+      "networkId": 200,
+      "address": "",
+      "chainId": 2001,
+      "assetType": 2,
+      "assetIndex": 1028,
+      "symbol": "vsKSM",
+      "decimals": 12,
+      "name": "vsKSM"
+    },
+    {
+      "networkId": 200,
+      "address": "",
+      "chainId": 2001,
+      "assetType": 2,
+      "assetIndex": 521,
+      "symbol": "RMRK",
+      "decimals": 10,
+      "name": "RMRK"
+    },
+    {
+      "networkId": 200,
+      "address": "",
+      "chainId": 2001,
+      "assetType": 2,
+      "assetIndex": 260,
+      "symbol": "vKSM",
+      "decimals": 12,
+      "name": "Kusama"
+    }
+  ]
+}

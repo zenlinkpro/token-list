@@ -18,13 +18,13 @@ enum NetworkId {
 
 const ChainInfoMap: Record<number, ChainInfo> = {
   [ChainId.Bifrost]: {
-    chainName: 'Bifrost'
+    chainName: 'bifrost'
   },
   [ChainId.Moonriver]: {
-    chainName: 'Moonriver'
+    chainName: 'moonriver'
   },
   [ChainId.Moonbeam]: {
-    chainName: 'Moonbeam'
+    chainName: 'moonbeam'
   },
 }
 

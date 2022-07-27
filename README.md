@@ -9,3 +9,5 @@ This is the verified tokens on zenlink dex.
 
 [Moonbeam](https://github.com/zenlinkpro/token-list/blob/main/tokens/moonbeam.json) tokens
 
+[Astar](https://github.com/zenlinkpro/token-list/blob/main/tokens/astar.json) tokens
+

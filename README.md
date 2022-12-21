@@ -3,7 +3,9 @@
 This is the verified tokens on zenlink dex.
 
 
-[Bifrost](https://github.com/zenlinkpro/token-list/blob/main/tokens/bifrost.json) tokens
+[Bifrost Kusama](https://github.com/zenlinkpro/token-list/blob/main/tokens/bifrost-kusama.json) tokens
+
+[Bifrost Polkadot](https://github.com/zenlinkpro/token-list/blob/main/tokens/bifrost-polkadot.json) tokens
 
 [Moonriver](https://github.com/zenlinkpro/token-list/blob/main/tokens/moonriver.json) tokens
 

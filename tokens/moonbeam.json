@@ -240,6 +240,16 @@
       "symbol": "xcACA",
       "decimals": 12,
       "name": "Acala"
+    },
+    {
+      "networkId": 300,
+      "address": "0x6021d2c27b6fbd6e7608d1f39b41398caee2f824",
+      "chainId": 2004,
+      "assetType": 255,
+      "assetIndex": 0,
+      "symbol": "CP",
+      "decimals": 18,
+      "name": "Cypress"
     }
   ]
 }

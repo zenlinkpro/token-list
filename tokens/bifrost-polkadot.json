@@ -1,0 +1,45 @@
+{
+  "name": "bifrost-polkadot",
+  "tokens": [
+    {
+      "networkId": 300,
+      "address": "",
+      "chainId": 2030,
+      "assetType": 0,
+      "assetIndex": 0,
+      "symbol": "BNC",
+      "decimals": 12,
+      "name": "Bifrost Native Currency"
+    },
+    {
+      "networkId": 300,
+      "address": "",
+      "chainId": 2030,
+      "assetType": 2,
+      "assetIndex": 2048,
+      "symbol": "DOT",
+      "decimals": 10,
+      "name": "Polkadot"
+    },
+    {
+      "networkId": 300,
+      "address": "",
+      "chainId": 2030,
+      "assetType": 2,
+      "assetIndex": 2304,
+      "symbol": "vDOT",
+      "decimals": 10,
+      "name": "vDOT"
+    },
+    {
+      "networkId": 300,
+      "address": "",
+      "chainId": 2030,
+      "assetType": 2,
+      "assetIndex": 2560,
+      "symbol": "vsDOT",
+      "decimals": 10,
+      "name": "vsDOT"
+    }
+  ]
+}

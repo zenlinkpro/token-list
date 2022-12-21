@@ -3,9 +3,11 @@ import { writeFile, readdir, mkdir } from 'node:fs/promises';
 import { ApiToken, ChainId, ChainName, Native, NetworkId, SdkToken } from "./types";
 
 const CHAINID_TO_NETWORKID = (id: ChainId): NetworkId => {
-  switch(id) {
-    case ChainId.BIFROST:
+  switch (id) {
+    case ChainId.BIFROST_KUSAMA:
       return NetworkId.KUSAMA
+    case ChainId.BIFROST_POLKADOT:
+      return NetworkId.POLKADOT
     case ChainId.MOONRIVER:
       return NetworkId.KUSAMA
     case ChainId.MOONBEAM:
@@ -18,9 +20,11 @@ const CHAINID_TO_NETWORKID = (id: ChainId): NetworkId => {
 }
 
 const CHAINID_TO_CHAINNAME = (id: ChainId): ChainName => {
-  switch(id) {
-    case ChainId.BIFROST:
-      return ChainName.BIFROST
+  switch (id) {
+    case ChainId.BIFROST_KUSAMA:
+      return ChainName.BIFROST_KUSAMA
+    case ChainId.BIFROST_POLKADOT:
+      return ChainName.BIFROST_POLKADOT
     case ChainId.MOONBEAM:
       return ChainName.MOONBEAM
     case ChainId.ASTAR:
@@ -46,9 +50,9 @@ async function main() {
     .filter((token) => token.isNative === Native.P || token.isNative === Native.N)
     .map((token) => {
       let networkId = null;
-      const {chainId, assetType, assetIndex, symbol, decimals, name, account } = token;
+      const { chainId, assetType, assetIndex, symbol, decimals, name, account } = token;
       networkId = CHAINID_TO_NETWORKID(chainId)
-    
+
       return {
         networkId,
         address: account,
@@ -63,7 +67,7 @@ async function main() {
 
   const tokensMap = sdkTokens.reduce<Record<number, SdkToken[]>>(
     (map, token) => {
-      if(!map[token.chainId]) {
+      if (!map[token.chainId]) {
         map[token.chainId] = [];
       }
       map[token.chainId].push(token);
@@ -73,7 +77,7 @@ async function main() {
   await readdir('tokens').catch(
     async () => { await mkdir('tokens') }
   )
-  
+
   for (const [chainId, tokens] of Object.entries(tokensMap)) {
     const chainName = CHAINID_TO_CHAINNAME(Number(chainId));
     const tokenlistInfo = {

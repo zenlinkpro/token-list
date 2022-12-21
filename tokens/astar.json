@@ -110,6 +110,26 @@
       "symbol": "WASTR",
       "decimals": 18,
       "name": "Wrapper AStar"
+    },
+    {
+      "networkId": 300,
+      "address": "0xe69583b62d7b7d8a568e1ec08f34b648589f4cf1",
+      "chainId": 2006,
+      "assetType": 255,
+      "assetIndex": 0,
+      "symbol": "CERES",
+      "decimals": 18,
+      "name": "Ceres Token"
+    },
+    {
+      "networkId": 300,
+      "address": "0xb51541df05de07be38dcfc4a80c05389a54502bb",
+      "chainId": 2006,
+      "assetType": 255,
+      "assetIndex": 0,
+      "symbol": "DEO",
+      "decimals": 18,
+      "name": "Demeter Token"
     }
   ]
 }

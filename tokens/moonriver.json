@@ -210,6 +210,16 @@
       "symbol": "xcKMA",
       "decimals": 12,
       "name": "Calamari"
+    },
+    {
+      "networkId": 200,
+      "address": "0xffffffff0ca324c842330521525e7de111f38972",
+      "chainId": 2023,
+      "assetType": 255,
+      "assetIndex": 0,
+      "symbol": "xcSDN",
+      "decimals": 18,
+      "name": "Shiden"
     }
   ]
 }

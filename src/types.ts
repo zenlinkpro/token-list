@@ -1,12 +1,14 @@
 export enum ChainId {
-  BIFROST = 2001,
+  BIFROST_KUSAMA = 2001,
+  BIFROST_POLKADOT = 2030,
   MOONBEAM = 2004,
   ASTAR = 2006,
   MOONRIVER = 2023
 }
 
 export enum ChainName {
-  BIFROST = 'bifrost',
+  BIFROST_KUSAMA = 'bifrost-kusama',
+  BIFROST_POLKADOT = 'bifrost-polkadot',
   MOONBEAM = 'moonbeam',
   ASTAR = 'astar',
   MOONRIVER = 'moonriver'

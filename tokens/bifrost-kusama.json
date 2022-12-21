@@ -1,5 +1,5 @@
 {
-  "name": "bifrost",
+  "name": "bifrost-kusama",
   "tokens": [
     {
       "networkId": 200,
@@ -80,6 +80,16 @@
       "symbol": "vKSM",
       "decimals": 12,
       "name": "Kusama"
+    },
+    {
+      "networkId": 200,
+      "address": "",
+      "chainId": 2001,
+      "assetType": 2,
+      "assetIndex": 2048,
+      "symbol": "USDT",
+      "decimals": 6,
+      "name": "USDT"
     }
   ]
 }

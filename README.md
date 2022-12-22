@@ -1,6 +1,6 @@
-## token list
+## token-list
 
-This is the verified tokens on zenlink dex.
+Default token list used in the Zenlink interface
 
 
 [Bifrost Kusama](https://github.com/zenlinkpro/token-list/blob/main/tokens/bifrost-kusama.json) tokens

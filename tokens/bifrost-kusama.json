@@ -90,6 +90,26 @@
       "symbol": "USDT",
       "decimals": 6,
       "name": "USDT"
+    },
+    {
+      "networkId": 200,
+      "address": "",
+      "chainId": 2001,
+      "assetType": 2,
+      "assetIndex": 2050,
+      "symbol": "KBTC",
+      "decimals": 8,
+      "name": "KBTC"
+    },
+    {
+      "networkId": 200,
+      "address": "",
+      "chainId": 2001,
+      "assetType": 2,
+      "assetIndex": 257,
+      "symbol": "vBNC",
+      "decimals": 12,
+      "name": "vBNC"
     }
   ]
 }
